@@ -1,0 +1,11 @@
+# robots.txt for Ethereal Eve
+User-agent: *
+Allow: /
+
+# Disallow admin or private pages if you add them later
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+
+# Location of the sitemap
+Sitemap: https://www.etherealeve.com/sitemap.xml
